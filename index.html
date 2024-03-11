@@ -1,96 +1,647 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<head>
+	<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+	<link rel="stylesheet" href="bibtex.css" type="text/css" />
+	<title>CV_Keyu Wang</title>
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="docs/css/styles.css">
-
-        <title>Curriculum Vitae_KeyuWang</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            
-        </header>
-
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume__left">
-                    <!--========== HOME ==========-->
-                    <section class="home" id="home">
-                        
-                        <!-- Theme change button -->
-                        
-    
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
-
-                    </section>          
-                    
-                    <!--========== SOCIAL ==========-->
-                    <section class="social section">
-                        
-                    </section>
-
-                    <!--========== PROFILE ==========-->
-                    <section class="profile section" id="profile">
-                        
-                    </section>
-                    
-                    <!--========== EDUCATION ==========-->
-                    <section class="education section" id="education">
-                        
-                    </section>
+	<script type="text/javascript">
+		function toggleBibtex(articleid) {
+			var bib = document.getElementById('bib_' + articleid);
+			if (bib) {
+				if (bib.className.indexOf('bibtex') != -1) {
+					bib.className.indexOf('noshow') == -1 ? bib.className = 'bibtex noshow' : bib.className = 'bibtex';
+				}
+			} else {
+				return;
+			}
+		}
+	</script>
 
 
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        
-                    </section>
+</head>
 
-                </div>
+<body>
 
-                <div class="resume__right">
-                    <!--========== EXPERIENCE ==========-->
-                    <section class="experience section" id="experience">
-                        
-                    </section>
 
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-                        
-                    </section>
+	<table summary="Table for page layout." id="tlayout">
+		<tr valign="top">
+			<td id="layout-menu">
+				<div class="container">
+					<div class="fixed">
 
-                    <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
-                        
-                    </section>
+						<div align="center"><b>
+								<font color="#333399" size="5">Welcome to </font>
+							</b></div>
+						<div align="center"><b>
+								<font color="#333399" size="5">Keyu Wang's Homepage!</font>
+							</b></div>
 
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        
-                    </section>
-                    
-                    <!--========== INTERESTS ==========-->
-                    <section class="interests section">
-                        
-                    </section>
-                </div>
-            </div>        
-        </main>
+						<div>&nbsp;</div>
 
-        <!--========== SCROLL TOP ==========-->
-        
+						<div align="center">
+							<div style="width:160px; height:160px; border-radius:50%; overflow:hidden;">
+								<img src="doc/selfie.jpg" width="160px" />
+							</div>
+						</div>
+						<div align="center"><b>
+								<font color="#333399" size="5">Keyu Wang | 汪科宇</font>
+							</b></div>
+						<div align="center"><img src="icon/home.png" width="15px" /> Leshan, Sichuan, </div>
+						<div align="center">P.R. China</div>
+						<div align="center"><img src="icon/icon-tel.png" width="15px" />&nbsp;+86-13132053602</div>
+						<div align="center"><img src="icon/icon-mail.png" width="15px" />&nbsp;<a
+								href="mailto:wangky10@gmail.com">wangky10@gmail.com</a></div>
 
-        <!--========== HTML2PDF ==========-->
-        <script src="docs/js/html2pdf.js"></script>
 
-        <!--========== MAIN JS ==========-->
-        <script src="docs/js/main.js"></script>
-    </body>
+						<div class="menu-category"><img src="icon/Menu.png" width="15px" /> Menu</div>
+						<div class="menu-item"><a href="index.html"><img src="icon/home.png" width="15px" />
+								Home</a></div>
+						<div class="menu-item"><a href="#Education"><img src="icon/Education.png" width="15px" />
+								Education</a></div>
+						<div class="menu-item"><a href="#Projects"><img src="icon/Research.png" width="15px" /> Research
+								Projects</a>
+						</div>
+						<div class="menu-item"><a href="#Publications"><img src="icon/Publications.png" width="15px" />
+								Publications</a></div>
+						<div class="menu-item"><a href="#Internships"><img src="icon/Experiences.png" width="15px" />
+								Professional Experiences</a></div>
+						<div class="menu-item"><a href="#Honors"><img src="icon/Honorstitles.png" width="15px" />
+								Honors &
+								Awards</a></div>
+						<div class="menu-item"><a href="#References"><img src="icon/Students.png" width="15px" />
+								References</a></div>
+
+						<div class="menu-category"><img src="icon/link.png" width="15px" /> Links</div>
+
+						<div class="menu-item"><a href="https://www.researchgate.net/profile/Keyu-Wang-15">
+								<img src="icon/researchgate.ico" width="15px" />&nbsp;ResearchGate</a></div>
+
+						<div class="menu-item"><a href="https://www.linkedin.com/in/wang-mathis-349014241/">
+								<img src="icon/linkedin.webp" width="15px" />&nbsp;Linkedin</a></div>
+						<div class="menu-item"><a href="https://orcid.org/0000-0002-5682-8566">
+								<img src="icon/orcid.ico" width="15px" />&nbsp;ORCID</a></div>
+						<div class="menu-item"><a href="https://github.com/MathisWWW">
+								<img src="icon/github.ico" width="15px" />&nbsp;Github</a></div>
+
+					</div>
+				</div>
+			</td>
+
+
+			<td id="layout-content">
+				<div id="toptitle">
+					<h1> <img src="icon/home.png" width="20px" /> Home </h1>
+				</div>
+
+				<h2 id="Education"><img src="icon/Education.png" width="18px" /> Education</h2>
+
+				<h3><img src="icon/Education.png" width="18px" /> M.Eng.</h3>
+
+				<table class="imgtable">
+					<tr>
+						<td>
+							<img src="https://www.cauc.edu.cn/zhv4/images/footer-logo.png"
+								alt="Civil Aviation University of China" width="200px" /></a>&nbsp;&nbsp;&nbsp;
+							<img src="https://www.cauc.edu.cn/siaee/images/logo.png"
+								alt="Sino-European Institute of Aviation Engineering" width="300px" />
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="2" align="middle">
+							<p style="text-align:justify; text-justify:inter-ideograph;"> Aeronautical
+								Engineering, June
+								2023;<span style=" float:right;"><strong>Ranking: 1/19 </strong></span>
+								<a href="doc/CTI_Certificate.pdf">Diploma of Engineers issued by CTI</a>, June
+								2023 <br />
+
+								<a href="https://www.cauc.edu.cn/en/"><em>Civil Aviation University of
+										China</em></a>,
+								<a href="https://www.cauc.edu.cn/siaee/">Sino-European Institute of Aviation
+									Engineering</a>
+							<p>Major Courses: Fatigue of structure, Applications of Structural Finite Element,
+								Aeronautical Engineering Sciences, Properties of Metallic/Composite Materials,
+								Numerical
+								Analysis of PDE, Aircraft and Spacecraft Loads & Structure</p>
+							</p>
+						</td>
+					</tr>
+				</table>
+				<h3><img src="icon/Education.png" width="18px" /> B.Eng.</h3>
+
+				<table class="imgtable">
+					<tr>
+						<td>
+							<img src="https://www.cauc.edu.cn/zhv4/images/footer-logo.png"
+								alt="Civil Aviation University of China" width="200px" /></a>&nbsp;&nbsp;&nbsp;
+							<img src="https://www.cauc.edu.cn/siaee/images/logo.png"
+								alt="Sino-European Institute of Aviation Engineering" width="300px" />
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="2" align="middle">
+							<p style="text-align:justify; text-justify:inter-ideograph;"> Flight Vehicle Power
+								Engineering, June 2020
+								<span style=" float:right;"><strong>Ranking: 32/89 </strong></span>
+
+
+								<br />
+								<a href="https://www.cauc.edu.cn/en/"><em>Civil Aviation University of
+										China</em></a>,
+								<a href="https://www.cauc.edu.cn/siaee/">Sino-European Institute of Aviation
+									Engineering</a>
+							<p>Main Courses: Advanced Mathematics, French, Classical Physics, Complex Functions,
+								Engineering Drawing, Computer Programming (C), Flight Mechanics, Structural Metallic
+								Materials, Functional Analysis, System Modeling & Simulation</p>
+							</p>
+
+						</td>
+
+					</tr>
+
+				</table>
+				<h3><img src="icon/icon-earth.png" width="18px" /> Languages</h3>
+
+				<em><b>Chinese</b> (Native);<b>English</b> (TOEFL: 107/120, TOEIC: 980/990, CET-6: 595);
+					<b>French</b>
+					(DELF B2)</em>
+
+
+
+				<h2 id="Projects"><img src="icon/Research.png" width="20px" /> Research Projects</h2>
+				</div>
+
+				<h3><img src="icon/Projects.png" width="18px" /> Projects at Institute of Metal Research, CAS</h3>
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Water vapor corrosion behaviors of
+						rare-earth silicates environmental barrier coatings.</strong>
+					<span style=" float:right;">Shenyang, China </span>
+				<p> <strong>Role: lead researcher</strong>
+					<span style=" float:right;">Sept. 2023 – Ongoing</span><br />
+				<ul>
+
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> As-sprayed samples of rare-earth
+							silicates coatings were annealed and then underwent water vapor corrosion tests at elevated
+							temperature.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Extensive characterization was
+							conducted using SEM/BSE-EDS, XRD, FIB-TEM techniques to investigate the effect of annealing
+							and water vapor corrosion on the coatings’ properties.
+						</p>
+					</li>
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Further image analysis was
+							implemented on the SEM/BSE results to quantify the coatings’ properties. The evolution of
+							cracks, porosity and TGO growth were studied.
+						</p>
+					</li>
+
+				</ul>
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Oxidation behavior of HEAs under
+						static & cyclic high-temperature conditions.</strong>
+					<span style=" float:right;">Shenyang, China </span>
+				<p> <strong>Role: lead researcher</strong>
+					<span style=" float:right;">Nov. 2023 – Ongoing</span><br />
+				<ul>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Four typical HEAs were prepared
+							and static/cyclic oxidation tests were carried out. Surface & cross-section SEM/BSE-EDS,
+							oxidation kinetics, and XRD analysis were performed.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> The effect of alloying elements
+							and cyclic condition on the HT performance of alloys was studied.
+						</p>
+					</li>
+				</ul>
+
+
+				<h3><img src="icon/Projects.png" width="18px" /> Projects at Sino-European Institute of Aviation
+					Engineering, CAUC</h3>
+				</ul>
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Electrochemical Migration (ECM)
+						Behavior and Mechanism of PCB.</strong>
+					<span style=" float:right;">Tianjin, China </span>
+				<p> <strong>Role: lead researcher</strong>
+					<span style=" float:right;">Sept. 2021 – Jan. 2023</span><br />
+				<ul>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Designed and built a
+							multi-functional ECM experimental setup to simulate the service conditions of electronic
+							devices and perform various tests.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Conducted a thorough research on
+							the impact of different surface finishes and environmental pollutants on the ECM process and
+							its products and further published a relevant paper in the journal 'Journal of Electronic
+							Materials'.
+						</p>
+					</li>
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Built a numerical model to further
+							investigate the ECM behavior utilizing numerical simulation method.
+						</p>
+					</li>
+				</ul>
+
+				</ul>
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Research on the Construction of
+						Automotive Corrosion Environmental Spectrum.</strong>
+					<span style=" float:right;">Tianjin & Harbin, China </span>
+				<p> <strong>Role: researcher; coordinator</strong>
+					<span style=" float:right;">Sept. 2020 – May 2022</span><br />
+				<ul>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Led research group members
+							accomplishing extensive automotive corrosion tests and electrochemical tests.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Analyzed the raw data retrieved
+							from field research and created a data collection system, acquired computer software right
+							certificate in 2021.
+						</p>
+					</li>
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Published a relevant paper as the
+							student first author (assistant research professor as the first author) in the journal
+							'Engineering Failure Analysis' and applied the analysis process for national invention
+							patent.
+						</p>
+					</li>
+				</ul>
+
+
+				</ul>
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Research on automotive
+						non-metallic aging based on China’s environment.</strong>
+					<span style=" float:right;">Tianjin, China </span>
+				<p> <strong>Role: researcher</strong>
+					<span style=" float:right;">July 2020 – Aug. 2021</span><br />
+				<ul>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Organized the analysis of the
+							environmental aging data of specific cities in China.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Conducted relativity analytics,
+							grey prediction and ArcGIS heat mapping on the laboratory accelerated and field exposure
+							testing results.
+						</p>
+					</li>
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Co-designed an analysis platform
+							and acquired computer software right certificate in 2021.
+						</p>
+					</li>
+				</ul>
+
+
+
+
+
+				<h2 id="Publications"><img src="icon/Publications.png" width="18px" /> Publications</h2>
+
+				<!-- <h3><img src="icon/News.png" width="18px" /> Papers in Press</h3> -->
+				<ol>
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Xiaoxiao Song<sup>#</sup>,
+							<b>Keyu Wang</b>, Lv Zhou, Yajun Chen<sup>#</sup>, Kaixu Ren, Jiayu Wang, Chao Zhang.
+							(2022).
+							Multi‑factor mining and corrosion rate prediction model construction of carbon steel under
+							dynamic atmospheric corrosion environment.
+							<b>Engineering Failure Analysis</b>, doi:
+							10.1016/j.engfailanal.2021.105987
+							<a href="javascript:toggleBibtex(&#39;1&#39;)"><b>[BibTex]</b></a>
+							<a
+								href="https://www.sciencedirect.com/science/article/pii/S1350630721008487"><b>[Link]</b></a>
+						</p>
+						<ul>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> A novel dynamic
+									atmospheric corrosion test plan was proposed and performed.
+
+								</p>
+							</li>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> The dynamic fuzzy
+									clustering algorithm was adopted to reduce the vehicle dynamic characteristic
+									parameters.
+
+								</p>
+							</li>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> Different models were
+									constructed to predict the corrosion rate of carbon steel in the dynamic
+									environment.
+
+								</p>
+							</li>
+						</ul>
+					</li>
+					<div id="bib_1" class="bibtex noshow">
+						<pre>@article{SONG2022105987,
+					title = {Multi-factor mining and corrosion rate prediction model construction of carbon steel under dynamic atmospheric corrosion environment},
+					journal = {Engineering Failure Analysis},
+					volume = {134},
+					pages = {105987},
+					year = {2022},
+					issn = {1350-6307},
+					doi = {https://doi.org/10.1016/j.engfailanal.2021.105987},
+					url = {https://www.sciencedirect.com/science/article/pii/S1350630721008487},
+					author = {Xiaoxiao Song and Keyu Wang and Lv Zhou and Yajun Chen and Kaixu Ren and Jiayu Wang and Chao Zhang},
+					keywords = {Dynamic atmospheric corrosion, GA-SVR, Time-weighted algorithm, Vehicle driving characteristic factors},
+					}
+				</pre>
+					</div>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Xiaoxiao Song<sup>#</sup>,
+							<b>Keyu Wang</b>,
+							Zhuo Chen, Kaixu Ren, Peng Liu. (2023).
+							Electrochemical Migration Behavior on FR-4 Printed Circuit Board with Different Surface
+							Finishes.
+							<b>Journal of Electronic Materials</b>, doi:
+							10.1007/s11664-023-10557-w.
+							<a href="javascript:toggleBibtex(&#39;2&#39;)"><b>[BibTex]</b></a>
+							<a href="https://link.springer.com/article/10.1007/s11664-023-10557-w"><b>[Link]</b></a>
+						</p>
+						<ul>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> ECM failure in printed
+									circuit board production was studied using a modified water drop test.
+
+								</p>
+							</li>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> The time to failure and
+									dendrite formation for three surface finishes were analyzed.
+								</p>
+							</li>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> The ECM mechanism for
+									different surface finishes was analyzed and elaborated.
+
+								</p>
+							</li>
+						</ul>
+					</li>
+					<div id="bib_2" class="bibtex noshow">
+						<pre>@article{Song2023,
+							title = {Electrochemical Migration Behavior on FR-4 Printed Circuit Board with Different Surface Finishes},
+							volume = {52},
+							ISSN = {1543-186X},
+							url = {http://dx.doi.org/10.1007/s11664-023-10557-w},
+							DOI = {10.1007/s11664-023-10557-w},
+							number = {9},
+							journal = {Journal of Electronic Materials},
+							publisher = {Springer Science and Business Media LLC},
+							author = {Song,  Xiaoxiao and Wang,  Keyu and Chen,  Zhuo and Ren,  Kaixu and Liu,  Peng},
+							year = {2023},
+							month = jun,
+							pages = {6121–6132}
+						  }
+				</pre>
+					</div>
+
+					</div>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Yajun Chen<sup>#</sup>, Xuechun
+							Pan,
+							<b>Keyu Wang</b>,
+							Fusheng Wang. (2022).
+							Effects of rivet hole arrangement on fatigue performance of thin sheets for fuselage: DIC
+							and numerical calculation.
+							<b>Thin‑Walled Structures</b>, doi:
+							10.1016/j.tws.2021.108550.
+							<a href="javascript:toggleBibtex(&#39;3&#39;)"><b>[BibTex]</b></a>
+							<a
+								href="https://www.sciencedirect.com/science/article/pii/S0263823121006443"><b>[Link]</b></a>
+						</p>
+						<ul>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> Crack propagation mode
+									of 2198-T8 under uniaxial fatigue load was investigated.
+
+								</p>
+							</li>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> Modified SIF formula
+									based on mode I+II and the applicable range was determined.
+								</p>
+							</li>
+							<li>
+								<p style="text-align:justify; text-justify:inter-ideograph;"> Crack propagation mode and
+									fracture mechanism were analyzed based on DIC.
+
+								</p>
+							</li>
+						</ul>
+					</li>
+					<div id="bib_3" class="bibtex noshow">
+						<pre>@article{CHEN2022108550,
+							title = {Effects of rivet hole arrangement on fatigue performance of thin sheets for fuselage: DIC and numerical calculation},
+							journal = {Thin-Walled Structures},
+							volume = {170},
+							pages = {108550},
+							year = {2022},
+							issn = {0263-8231},
+							doi = {https://doi.org/10.1016/j.tws.2021.108550},
+							url = {https://www.sciencedirect.com/science/article/pii/S0263823121006443},
+							author = {Yajun Chen and Xuechun Pan and Keyu Wang and Fusheng Wang},
+							keywords = {Aluminum-lithium alloy, Corrected stress intensity factor, Digital image correlation, Fatigue life prediction},
+							}
+			</pre>
+					</div>
+
+				</ol>
+				<em>#: The research assistant professor/professor at SIAE who supervised my research work.</em>
+				<!-- <h3><img src="icon/Publications.png" width="18px" /> Journal Papers</h3> -->
+
+				<h2 id="Internships"><img src="icon/Experiences.png" width="18px" /> Professional Experiences</h2>
+
+
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Airbus (Beijing) Engineering
+						Centre Co., Ltd.</strong>
+					<span style=" float:right;">Beijing, China </span>
+				<p> <strong>Structure Design Engineer Intern</strong>
+					<span style=" float:right;">Nov. 2022 – Apr. 2023</span><br />
+				<ul>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Perform strength analysis
+							(static and fatigue) on structure designs ensuring the application of relevant Airbus stress
+							methods and tools from a structure strength point of view and prepare the technical
+							documents for approval.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Provide solutions and reports
+							focusing on design of aircraft structure to ensure all airbus standards and certification
+							requirements.
+						</p>
+					</li>
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Responsible for delivering repair
+							instructions in accordance with the relevant certification/airworthiness requirements and
+							Airbus process and methods.
+						</p>
+					</li>
+
+				</ul>
+
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Aircraft Maintenance Engineering
+						Corporation (AMECO Co., Ltd.)</strong>
+					<span style=" float:right;">Sichuan, China </span>
+				<p> <strong>Technician Intern</strong>
+					<span style=" float:right;">July 2021 – Sep. 2021</span><br />
+				<ul>
+
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Participated in the composite
+							structure repairs of typical aero-engines, investigated the Structural Repair Manual (SRM)
+							to validate inspection and maintenance procedure.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Studied the SRM-Composite Repair
+							Manual to further discuss the damage tolerance of the honeycomb sandwich panel.
+						</p>
+					</li>
+
+				</ul>
+				<p style="text-align:justify; text-justify:inter-ideograph;"> <strong>Chengdu Airlines Co., Ltd.,
+						Scheduled Maintenance Department</strong>
+					<span style=" float:right;">Sichuan, China </span>
+				<p> <strong>Mechanic Intern</strong>
+					<span style=" float:right;">July 2020 – Aug. 2020</span><br />
+				<ul>
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Participated in the ground check
+							and running-up tests of A320 series and ARJ-21.
+
+						</p>
+					</li>
+
+					<li>
+						<p style="text-align:justify; text-justify:inter-ideograph;"> Investigated and translated the
+							technical documents of periodic inspection for aircraft maintenance checks, overhaul,
+							modification.
+						</p>
+					</li>
+
+				</ul>
+				<h2 id="Honors"><img src="icon/Honorstitles.png" width="18px" /> Honors & Awards</h2>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Outstanding
+							postgraduate
+							Student</em></strong>
+					<span style=" float:right;">June 2023 </span>
+				<p>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Excellent Graduate Student</em></strong>
+					<span style=" float:right;">Sept. 2022 </span>
+				<p>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Scholarship for Graduates.</em></strong> First Prize
+					<span style=" float:right;">Sept. 2022 </span>
+				<p>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>“Internet+” Innovation and Entrepreneurship Competition.</em></strong> First Prize
+					<span style=" float:right;">Nov. 2021 </span>
+				<p>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Scholarship for Graduates.</em></strong> First Prize
+					<span style=" float:right;">Sept. 2021 </span>
+				<p>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Mathematical Contest in Modeling.</em></strong> Honorable Mention
+					<span style=" float:right;">Mar. 2018 </span>
+				<p>
+
+				<h2 id="References"><img src="icon/Students.png" width="18px" /> References</h2>
+
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Serge Crézé,</em></strong> Professor, ISAE‑SUPAERO (Ecole Nationale Supérieure de
+					l’Aéronautique et de l’Espace), Toulouse,
+					France<br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Former
+					Responsible of the
+					Laboratory of
+					Material and Structures, ISAE‑SUPAERO, Toulouse,
+					France<br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Professor, Civil Aviation University of
+					China, Tianjin, China<br />
+					<a href="https://drive.google.com/file/d/1bMAsIuwqpHQzsbdk3U9K05-HJScQR-OF/view?usp=share_link"><em>Reference
+							Letter with Translation</em></a>
+					<a href="mailto:creze_nouveau.serge@hotmail.com"><span
+							style=" float:right;"><em>creze_nouveau.serge@hotmail.com</em></span></a>
+				<p>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Yajun Chen,</em></strong> Professor, Civil Aviation University of
+					China, Tianjin, China<br />
+					<a href="https://drive.google.com/file/d/1eSbKzIQab0NGOyq3nLz5ZNcttEFzTtSG/view?usp=sharing"><em>Reference
+							Letter</em></a>
+					<a href="mailto:yjchen@cauc.edu.cn"><span
+							style=" float:right;"><em>yjchen@cauc.edu.cn</em></span></a>
+				<p>
+				<p style="text-align:justify; text-justify:inter-ideograph;">
+					<strong><em>Dinghe Li,</em></strong> Director of Sino‑European Institute of Aviation Engineering,
+					Civil Aviation University of China, Tianjin,
+					China<br />&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Professor of
+					Aircraft and Spacecraft Loads & Structure, Civil Aviation University of China, Tianjin, China<br />
+					<a href="https://drive.google.com/file/d/1PVbFLceHWmM4KAwRMz-rBwkhp8xBOjTx/view?usp=sharing"><em>Reference
+							Letter</em></a>
+					<a href="mailto:dh-li@cauc.edu.cn"><span style=" float:right;"><em>dh-li@cauc.edu.cn</em></span></a>
+				<p>
+					<!-- 
+				<h2><img src="icon/Footstep.png" width="18px" /> Browsing Records and Footstep Map</h2>
+
+				<a href="https://www.revolvermaps.com/livestats/5s1vm7ipkzw/"><img
+						src="//rf.revolvermaps.com/h/m/a/0/ff0000/180/0/5s1vm7ipkzw.png" width="548" height="300"
+						alt="Map" style="border:0;"></a>
+
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=196TOgzJW0mwpZflq-GFcxSFOTsB76-HZ" width="548"
+					height="300"></iframe>
+
+				<div id="footer">
+					<div id="footer-text">
+						This website was last updated on 2023-05-10, @Yi Jiang.
+					</div>
+				</div> -->
+
+
+			</td>
+		</tr>
+	</table>
+</body>
+<em>*: This curriculum vitae is created on 3/11/2024.</em>
+
 </html>
